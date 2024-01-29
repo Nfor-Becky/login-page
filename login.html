@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+        <div class="container">
+            <form id="form">
+            <h1>Get Started</h1>
+            <div class="input-control">
+                <label for="username">User Name</label>
+                <input
+                    type="text"
+                    name="username"
+                    id="username" 
+                    placeholder="Nfor Becky">
+                <div class="error"></div> 
+            </div>
+
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    name="email"
+                    id="email" 
+                    placeholder="abc@gmail.com">
+                <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input
+                    type="password" 
+                    name="password"
+                    id="password" 
+                    placeholder="password here">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+</body>
+</html>

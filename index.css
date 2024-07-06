@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(5, 47, 110);
+}
+.home{
+    height: 360px;
+    width: 220px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.card{
+    padding: 15px;
+    border-radius: 10px;
+    background: rgb(8, 33, 80);
+}
+.card img{
+    
+}
+.icons{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+h5{
+    color: white;
+}
+.profile{
+    display: flex;
+    padding-top: 20px;
+}
+span{
+    color: white;
+}
+p{
+    font-size: 10px;
+    color: rgb(28, 139, 212);
+}
+.profile p{
+    padding: 10px 0 10px  10px;
+}
